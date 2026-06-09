@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: [
     "https://front-tarefas-sandy.vercel.app/",
-    "https://SEU-CODESPACE-8080.app.github.dev"
+    "https://refactored-succotash-977v7jq65vp3pqwq-8080.app.github.dev"
   ],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
