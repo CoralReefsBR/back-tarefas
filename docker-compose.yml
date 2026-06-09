@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    container_name: todo-back
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+    restart: unless-stopped
