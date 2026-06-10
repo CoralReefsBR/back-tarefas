@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 // ⚠️ Substitua pelas URLs reais da Vercel e do Codespaces quando necessário
 const corsOptions = {
   origin: [
-    "https://front-tarefas-sandy.vercel.app/",
+    "https://front-tarefas-sandy.vercel.app",
     "https://refactored-succotash-977v7jq65vp3pqwq-8080.app.github.dev"
   ],
   methods: "GET,POST,PUT,DELETE",
